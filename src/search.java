@@ -16,6 +16,7 @@ public class search {
       if (target.equalsIgnoreCase(food)) {
         System.out.printf("%s is available at index %d\n", food, index);
         isFound = true;
+        break;
       }
       index++;
     }
